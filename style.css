@@ -66,13 +66,17 @@
     background-image: url('images/Circle\ design.svg');
     background-repeat: no-repeat;
     background-size: cover;
-     
-    /* display: flex;
-    justify-items: center;
-    align-items: center; */
 }
 
-
+.sponsors{
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.sponsors img{
+    padding: 70px;
+   
+}
 
 
 
@@ -94,7 +98,7 @@
 
 .nav-anchor a{
     margin-right: 10px;
-    align-items: center;
+    
 }  
 
 .nav-title{
@@ -122,6 +126,13 @@
        width:90% 
 }
 
+.sponsors img{
+   padding: 20px;
+   width: 20%;
+
+
+}
+
 }
 @media screen and (min-width:577px) and (max-width:1080px){
     .navigation{
@@ -136,4 +147,9 @@
         background-image: url('images/Circle\ design.svg');
         background-size: cover;
     }
+    .sponsors{
+        margin-top: 5%;
+    }
+    .sponsors img{
+        padding: 40px;
 }

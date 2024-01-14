@@ -65,6 +65,7 @@
     margin-left: 500px;
     background-image: url('images/Circle\ design.svg');
     background-repeat: no-repeat;
+    background-size: cover;
      
     /* display: flex;
     justify-items: center;
@@ -92,7 +93,7 @@
     }
 
 .nav-anchor a{
-    margin-right: 20px;
+    margin-right: 10px;
 }  
 
 .nav-title{
@@ -103,8 +104,6 @@
 }
 .camera-img img{
     margin-left: 0%;
-    width: 90%;
-    background-size: auto;
     
 }
 .camera-text{
@@ -117,4 +116,18 @@
        width:100% 
 }
 
+}
+@media screen and (min-width:577px) and (max-width:1080px){
+    .navigation{
+        flex-direction: column;
+    }
+
+    .camera-img img{
+        margin: 0;
+        height: 90%;
+        width: 90%;
+        background-image: none;
+        background-image: url('images/Circle\ design.svg');
+        background-size: cover;
+    }
 }

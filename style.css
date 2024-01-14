@@ -103,7 +103,8 @@
     flex-direction: column-reverse;
 }
 .camera-img img{
-    margin-left: 0%;
+    margin-left: 10px;
+    width: 95%;
     
 }
 .camera-text{

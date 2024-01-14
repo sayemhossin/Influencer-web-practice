@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navigation{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    /* border: 2px solid red; */
+    
+}
+.nav-title{
+    font-size: 1.5rem;
+    margin-left: 70px;
+}
+.nav-anchor ul{
+    display: flex;
+   
+}
+.nav-anchor li{
+    list-style: none;
+    
+}
+.nav-anchor a{
+    text-decoration: none;
+    margin-right: 70px;
+    font-weight: 500;
+}
+/* camera sec */
+.camera{
+    /* border: 2px solid red; */
+    margin-top: 60px;
+    display: flex;
+    
+   
+   
+}
+.camera-text{
+    /* border: 2px solid red; */
+    padding: 50px 0px 0px 60px;
+}
+.camera-text h1{
+    font-size: 3rem;
+}
+.camera-text p{
+    margin-top: 30px;
+    width: 500px;
+    font-weight: 600;
+}
+.camera-text button{
+   margin-top: 30px;
+   background: #E02C6D;
+   padding: 10px 24px;
+   border-radius: 30px;
+   font-size: 1rem;
+   color: #fff;
+   font-weight: 600;
+}
+.camera-img img{
+    margin-left: 500px;
+    background-image: url('images/Circle\ design.svg');
+    background-repeat: no-repeat;
+     
+    /* display: flex;
+    justify-items: center;
+    align-items: center; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:676px) {
+   
+
+    .navigation{
+        flex-direction: column;
+    }
+
+.nav-anchor a{
+    margin-right: 20px;
+}  
+
+.nav-title{
+    margin-left: 0px;
+}
+.camera{
+    flex-direction: column-reverse;
+}
+.camera-img img{
+    margin-left: 0%;
+    width: 90%;
+    background-size: auto;
+    
+}
+.camera-text{
+    padding: 0;
+    text-align: center; 
+    margin-top: 40px;
+}
+.camera-text p{
+   
+       width:100% 
+}
+
+}

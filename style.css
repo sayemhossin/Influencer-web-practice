@@ -94,10 +94,12 @@
 
 .nav-anchor a{
     margin-right: 10px;
+    align-items: center;
 }  
 
 .nav-title{
     margin-left: 0px;
+    text-align: center;
 }
 .camera{
     flex-direction: column-reverse;
@@ -107,6 +109,9 @@
     width: 95%;
     
 }
+.camera-text h1{
+    font-size: 30px;
+}
 .camera-text{
     padding: 0;
     text-align: center; 
@@ -114,7 +119,7 @@
 }
 .camera-text p{
    
-       width:100% 
+       width:90% 
 }
 
 }
